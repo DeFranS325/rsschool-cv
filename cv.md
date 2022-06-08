@@ -1,1 +1,2 @@
-#First file Aleksej Sergeev
+#First file
+#Author Aleksej Sergeev
