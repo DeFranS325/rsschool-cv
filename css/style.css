@@ -1,0 +1,14 @@
+/* initial font */
+@font-face {
+    font-family: 'IndieFlower';
+    src: url("assets/font/IndieFlower-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Kavivanar';
+    src: url("assets/font/Kavivanar-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
