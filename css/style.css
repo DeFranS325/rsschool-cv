@@ -31,6 +31,10 @@ body {
     background: url("../assets/png/bg.png") center fixed;
 }
 
+.main {
+    padding-bottom: 15px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -95,6 +99,7 @@ body {
     margin: 0;
     padding: 0;
     width: 30%;
+    height: 30%;
 }
 .section-img img {
     width: 100%;
@@ -192,6 +197,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 code {
