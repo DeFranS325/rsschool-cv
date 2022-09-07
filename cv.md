@@ -22,3 +22,20 @@ My dream is to participate in game development.
 
 # ***Courses***
 - **JS/FE Pre-School 2022Q2**
+
+# ***Code***
+```
+function deepCount(a){
+    let sum = 0;
+    a.map(el => sum += Array.isArray(el) ? 1 + deepCount(el) : 1);
+    return sum;
+}
+```
+
+# ***Education***
+**University**: Udmurt State University
+
+**City**: Izevsk, Udmurt Republic
+
+# ***Language***
+- **English** \- A2 \- Waystage — Pre-Intermediate
