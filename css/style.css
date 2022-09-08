@@ -100,15 +100,15 @@ body {
     border-radius: 10px;
 }
 
-.section:hover > h2 {
-    cursor: grab;
-    background-color: rgba(83, 168, 158, 0.80);
-}
+    .section:hover > h2 {
+        cursor: grab;
+        background-color: rgba(83, 168, 158, 0.80);
+    }
 
-.section:hover {
-    cursor: grab;
-    background: rgba(255, 255, 255, 0.8);
-}
+    .section:hover {
+        cursor: grab;
+        background: rgba(255, 255, 255, 0.8);
+    }
 
 .section-body {
     padding: 15px 10px;
