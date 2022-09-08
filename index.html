@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="assets/ico/favicon.ico" rel="icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kavivanar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-avatar">
+                <img src="assets/png/avatar.png" alt="My avatar" />
+            </div>
+            <section class="header-profile">
+                <h1>Sergeev Aleksej</h1>
+                <h2>C#-Developer</h2>
+            </section>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+    <!-- MAIN -->
+    <main class="main">
+        <div class="main-container container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/contacts.png" alt="Contact Image" />
+                    </div>
+                    <div class="section-text">
+                        <ul class="contacts-list">
+                            <li class="contacts-item my-location">Location: Russian Federation, Udmurt Republic, Sarapul</li>
+                            <li class="contacts-item telegram">Telegram: <a href="https://t.me/DeFranS325" class="link">DeFranS325</a></li>
+                            <li class="contacts-item email">E-mail: <a href="mailto:sansei325@gmail.com" class="link">sansei325@gmail.com</a></li>
+                            <li class="contacts-item discord">Discord: DeFranS#1272</li>
+                            <li class="contacts-item github">GitHub: <a href="https://github.com/DeFranS325" class="link">DeFranS325</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/summary.png" alt="Summary Image" />
+                    </div>
+                    <div class="section-text">
+                        <p>Programming is a great workout for the brain. Programming is my job and my hobby. There will always be some idea that it would be interesting to solve on your own, and not install a ready-made program. Programming is magic, you write a "spell" and get the result.</p>
+                        <p>Now I want to gain knowledge in JavaScript, CSS, HTML. There is a desire to get into a team to participate in a project led by an experienced developer to gain new knowledge and experience.</p>
+                        <p>My dream is to participate in game development.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/skills.png" alt="Skills Image" />
+                    </div>
+                    <div class="section-text">
+                        <ul class="skills-list">
+                            <li>IDE: Visual Studio, QT Creator, RAD Studio</li>
+                            <li>Languages: C#, C++, Java, Pascal, Delphi</li>
+                            <li>Web-development:Basic knowledge in HTML, CSS</li>
+                            <li>Version control: GIT, Github</li>
+                            <li>Database: Access, MSSQL/MySQL, Oracle</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/code.png" alt="Code Image" />
+                    </div>
+<pre class="pre"><code>    function deepCount(a){
+        let sum = 0;
+        a.map(el => sum += Array.isArray(el) ?
+            1 + deepCount(el) : 1);
+        return sum;
+    }
+</code></pre>
+                </div>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/courses.png" alt="Courses Image" />
+                    </div>
+                    <div class="section-text">
+                        <p>My courses is MSDN + Google Search</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/education.png" alt="Education Image" />
+                    </div>
+                    <div class="section-text">
+                        <p>Izhevsk, Udmurt State University, Faculty of Information Technologies and Computer Engineering</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="language">
+                <h2 class="section-title">Language</h2>
+                <div class="section-body">
+                    <div class="section-img">
+                        <img src="assets/png/language.png" alt="Language Image" />
+                    </div>
+                    <div class="section-text">
+                        <p>English - A2 - Waystage &#8212; Pre-Intermediate</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- END MAIN -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-author">
+                <p>&#169; <a href="https://github.com/DeFranS325" target="_blank" class="footer-link">Sergeev Aleksej</a> , 2022</p>
+            </div>
+            <div class="footer-school">
+                <p><a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/png/logo-rsschool.png" alt="RSSchool Logo" width="100" height="36" /></a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+</body>
+</html>
