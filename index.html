@@ -41,7 +41,7 @@
         <div class="main-container container">
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/contacts.png" alt="Contact Image" />
                     </div>
@@ -58,7 +58,7 @@
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/summary.png" alt="Summary Image" />
                     </div>
@@ -71,7 +71,7 @@
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/skills.png" alt="Skills Image" />
                     </div>
@@ -88,22 +88,22 @@
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/code.png" alt="Code Image" />
                     </div>
-<pre class="pre"><code>    int n = 0;
-    int m;
-    readln("Enter m:", m);
-    for (int i = 1; i &lt; m; i++)
-    n *= i;
-    writeln("n=", n);
+<pre class="pre"><code>    function deepCount(a){
+        let sum = 0;
+        a.map(el => sum += Array.isArray(el) ?
+            1 + deepCount(el) : 1);
+        return sum;
+    }
 </code></pre>
                 </div>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/courses.png" alt="Courses Image" />
                     </div>
@@ -114,7 +114,7 @@
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/education.png" alt="Education Image" />
                     </div>
@@ -125,12 +125,12 @@
             </section>
             <section class="section" id="language">
                 <h2 class="section-title">Language</h2>
-                <div>
+                <div class="section-body">
                     <div class="section-img">
                         <img src="assets/png/language.png" alt="Language Image" />
                     </div>
                     <div class="section-text">
-                        <p>English - A2 - Waystage — Pre-Intermediate</p>
+                        <p>English - A2 - Waystage &#8212; Pre-Intermediate</p>
                     </div>
                 </div>
             </section>
@@ -141,7 +141,7 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-author">
-                <p>© <a href="https://github.com/DeFranS325" target="_blank" class="footer-link">Sergeev Aleksej</a> , 2022</p>
+                <p>&#169; <a href="https://github.com/DeFranS325" target="_blank" class="footer-link">Sergeev Aleksej</a> , 2022</p>
             </div>
             <div class="footer-school">
                 <p><a href="https://rs.school/js-stage0/" target="_blank"><img src="assets/png/logo-rsschool.png" alt="RSSchool Logo" width="100" height="36" /></a></p>
