@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 h1,
@@ -247,4 +248,22 @@ code {
     justify-content: center;
     flex-direction: column;
     padding-left: 50px;
+}
+
+.footer-school > p {
+    display: flex;
+    padding: 15px 0;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-school > p a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-school > p a img {
+    height: 36px;
 }
