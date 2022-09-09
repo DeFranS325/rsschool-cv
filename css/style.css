@@ -56,12 +56,6 @@ body {
     background-color: rgba(83, 168, 158, 0.50);
 }
 
-.nav-item:hover {
-    background-color: rgb(14, 73, 66, 0.50);
-    border-radius: 8px;
-    text-decoration: underline;
-}
-
 .nav-list {
     max-width: 1440px;
     margin: 0 auto;
@@ -69,6 +63,19 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 10px;
+}
+
+.nav-item {
+    margin: 5px 0;
+    transition: all .5s;
+    border-radius: 8px;
+}
+
+.nav-item:hover {
+    background-color: rgb(14, 73, 66, 0.50);
+    border-radius: 8px;
+    text-decoration: underline;
 }
 
 .nav-item,
@@ -81,7 +88,7 @@ body {
     color: white;
     transition: color 0.5s;
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 45px;
 }
 
 .main-container {
@@ -135,6 +142,7 @@ body {
 
     .section-img img {
         width: 100%;
+        border-radius: 10px;
     }
 
 .section-text {
@@ -151,17 +159,44 @@ body {
     padding: 0;
 }
 
-.skills-list {
+.skills-list,
+.courses-list,
+.project-list {
     list-style: circle;
     margin: 0;
+    padding-left: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+}
+
+.link-icon {
+    height: 15px;
+    width: 15px;
+    margin-left: 7px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.project-list li a:hover {
+    color: #829985;
+    text-decoration: underline;
+}
+
+.project-list li a:hover > .link-icon {
+    opacity: 1;
 }
 
 .contacts-item {
     position: relative;
     margin: 0;
-    margin-bottom: 13px;
-    padding: 0;
-    padding-left: 32px;
+    margin-bottom: 5px;
+    padding: 0 0 0 37px;
+    font-size: 18px;
+    line-height: 33px;
 }
 
     .contacts-item::before {
@@ -205,6 +240,7 @@ body {
     .link:hover,
     .footer-link:hover {
         color: #5d7260;
+        text-decoration: underline;
     }
 
 .pre {
